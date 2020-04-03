@@ -9,6 +9,7 @@
   "author": "Andy Roberts <andy.roberts@springernature.com> (http://springernature.com)",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.19.2",
     "slackbots": "^1.2.0"
   }
 }
