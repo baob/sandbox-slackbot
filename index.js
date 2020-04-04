@@ -16,3 +16,7 @@ bot.on('start', () => {
 
 	bot.postMessageToChannel('random', 'Hi I am testbot (classic)', params);
 });
+
+bot.on('error', (err) => {
+	console.log('Error captured by testbot', err);
+});
